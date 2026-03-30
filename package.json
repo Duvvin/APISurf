@@ -1,0 +1,29 @@
+{
+  "name": "apisurf",
+  "version": "1.0.0",
+  "description": "Typescript Node API",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "Vinicius Duarte",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/module-alias": "^2.0.4",
+    "gitignore": "^0.7.0",
+    "module-alias": "^2.3.4",
+    "node": "^25.8.2",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}
